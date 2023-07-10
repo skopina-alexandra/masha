@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <div class="grid grid-flow-row grid-rows-2 gap-4">
+    <nav class="grid grid-flow-row grid-rows-2 gap-4 m-0">
         <div class="grid grid-flow-col grid-cols-none justify-center">
             <Logo class="self-center "/>
         </div>
@@ -10,7 +10,7 @@
             <NavbarMenuLeft class=""/>
             <NavbarMenuRight  class=""/>
         </div>
-    </div>
+    </nav>
 
 </template>
 
