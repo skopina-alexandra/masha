@@ -1,7 +1,23 @@
+<script setup>
+    const principles = [
+        {
+            header: 'Ненасильственные методы',
+            text: 'Применяю методы, основанные на мягких и эффективных техниках, избегая физического или эмоционального насилия',
+        },
+        {
+            header: 'Положительное подкрепление',
+            text: 'Использует похвалу, награды и игру, чтобы стимулировать желаемое поведение у собаки, создавая позитивный опыт обучения'
+        },
+        {
+            header: 'Обучение владельцев',
+            text: 'Помогаю владельцам собак разобраться и использовать полученные навыки в повседневной жизни',
+        },
+    ];
+
+</script>
+
 <template>
     <section class = "grid grid-cols-3 gap-6 mx-auto">
-        <PrinciplesItem class="bg-violet-500" text="Ненасильственные методы"/>
-        <PrinciplesItem class="bg-green-500" text="Положительное подкрепление"/>
-        <PrinciplesItem class="bg-blue-500" text="Обучение владельцев"/>
+        <PrinciplesItem v-for="principle in principles" class="bg-violet-500" :item="principle"/> 
     </section>
 </template>

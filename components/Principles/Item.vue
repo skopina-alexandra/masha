@@ -1,9 +1,15 @@
 <script setup>
 defineProps({
-    text: String,
-    imageSrc: String,
+    item : {
+        header: String,
+        text: String,
+    }
 });
 </script>
 <template>
-    <PrinciplesHeader :text="text" :image-src="imageSrc" />
+    <div>
+
+        <PrinciplesHeader :text="item.header" />
+        <p>{{ item.text }}</p>
+    </div>
 </template>

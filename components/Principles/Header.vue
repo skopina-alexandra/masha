@@ -1,7 +1,6 @@
 <script setup>
 defineProps({
     text: String,
-    imageSrc: String,
 });
 </script>
 
