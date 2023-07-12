@@ -9,7 +9,7 @@
             <NavbarMenuLeft class=""/>
             <NavbarMenuRight  class=""/>
         </div>
-    </div>
+    </nav>
 
 </template>
 
