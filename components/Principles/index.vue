@@ -17,6 +17,7 @@
 </script>
 
 <template>
+    <h2>Работаю по <span class="text-3xl font-extrabold">принципам</span></h2>
     <section class = "grid grid-cols-3 gap-6 mx-auto">
         <PrinciplesItem v-for="principle in principles" class="bg-violet-500" :item="principle"/> 
     </section>
