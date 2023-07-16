@@ -1,12 +1,13 @@
 <script setup>
 defineProps({
     text: String,
+    image: String,
 });
 </script>
 
 <template>
     <div class="grid grid-flow-col grid-cols-3">
-        <img src="/assets/images/"
+        <img :src="image">
         <h3>
             {{ text }}
         </h3>
