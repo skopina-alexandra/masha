@@ -8,8 +8,8 @@ defineProps({
 });
 </script>
 <template>
-  <div>
+  <div class="py-5">
     <PrinciplesHeader :text="item.header" :image="item.image" />
-    <p>{{ item.text }}</p>
+    <p class="">{{ item.text }}</p>
   </div>
 </template>

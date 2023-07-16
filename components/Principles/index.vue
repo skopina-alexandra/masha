@@ -8,7 +8,7 @@ const principles = [
   {
     image: "/assets/images/paw-violet.png",
     header: "Положительное подкрепление",
-    text: "Использует похвалу, награды и игру, чтобы стимулировать желаемое поведение у собаки, создавая позитивный опыт обучения",
+    text: "Использую похвалу, награды и игру, чтобы стимулировать желаемое поведение у собаки, создавая позитивный опыт обучения",
   },
   {
     image: "/assets/images/paw-pink.png",
@@ -20,10 +20,9 @@ const principles = [
 
 <template>
   <h2>Работаю по <span class="text-3xl font-extrabold">принципам</span></h2>
-  <section class="grid grid-cols-3 gap-6 mx-auto">
+  <section class="grid grid-cols-3 gap-x-24 mx-auto">
     <PrinciplesItem
       v-for="principle in principles"
-      class="bg-violet-500"
       :item="principle"
     />
   </section>
