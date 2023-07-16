@@ -1,4 +1,4 @@
 {
-    "vue.codeActions.savingTimeLimit": 1500,
-    "vue.codeActions.enabled": false
+  "vue.codeActions.savingTimeLimit": 1500,
+  "vue.codeActions.enabled": false
 }

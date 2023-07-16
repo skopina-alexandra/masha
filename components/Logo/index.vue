@@ -1,7 +1,6 @@
 <template>
-<div class="grid grid-flow-col grid-cols-2">
+  <div class="grid grid-flow-col grid-cols-2">
     <LogoImage class="" />
     <LogoText />
-</div>
-
+  </div>
 </template>

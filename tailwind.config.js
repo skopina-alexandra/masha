@@ -10,10 +10,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        font: '#1D1A12'
-      }
+        font: "#1D1A12",
+      },
     },
   },
   plugins: [],
-}
-
+};
