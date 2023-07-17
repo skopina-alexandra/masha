@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-center m-0 p-0">
     <div
-      class="h-72 bg-gradient-to-r from-amber-600 via-pink-600 to-violet-700 p-1 photo"
+      class="h-1/4 bg-gradient-to-r from-amber-600 via-pink-600 to-violet-700 p-1 photo"
     >
       <img src="/assets/images/masha-main.jpg" class="h-full w-full photo" />
     </div>
