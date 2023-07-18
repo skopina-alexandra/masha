@@ -3,7 +3,7 @@ const principles = [
   {
     image: "/assets/images/paw-amber.png",
     header: "Ненасильственные методы",
-    text: "Применяю методы, основанные на мягких и эффективных техниках, избегая физического или эмоционального насилия",
+    text: "Применяю методы, основанные на мягких и эффективных техниках, без физического или эмоционального насилия",
   },
   {
     image: "/assets/images/paw-violet.png",
@@ -19,11 +19,14 @@ const principles = [
 </script>
 
 <template>
-  <h2>Работаю по <span class="text-3xl font-extrabold">принципам</span></h2>
-  <section class="grid grid-cols-3 gap-x-24 mx-auto">
-    <PrinciplesItem
-      v-for="principle in principles"
-      :item="principle"
-    />
+  <section class="flex flex-col items-start">
+    <h2 class="text-xl mb-20 pt-20 pb-5 border-b border-dashed border-font">Работаю по <span class="text-5xl font-extrabold">принципам</span></h2>
+    <div class="flex flex-row justify-between">
+      <PrinciplesItem
+        v-for="principle in principles"
+        :item="principle"
+        class="basis-1/4"
+      />
+    </div>
   </section>
 </template>

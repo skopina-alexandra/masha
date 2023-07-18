@@ -9,7 +9,7 @@ defineProps({
 </script>
 <template>
   <div class="py-5">
-    <PrinciplesHeader :text="item.header" :image="item.image" />
-    <p class="">{{ item.text }}</p>
+    <PrinciplesHeader class="mb-10" :text="item.header" :image="item.image" />
+    <p class="text-xl">{{ item.text }}</p>
   </div>
 </template>

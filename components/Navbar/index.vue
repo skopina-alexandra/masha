@@ -4,8 +4,8 @@
       <a href="#top"><NavbarLogo class="self-center" /></a>
     </div>
     <div class="grid grid-flow-col cols-2 justify-between">
-      <NavbarMenuLeft />
-      <NavbarMenuRight />
+      <NavbarMenuLeft class="text-lg" />
+      <NavbarMenuRight class="text-lg" />
     </div>
   </nav>
 </template>
